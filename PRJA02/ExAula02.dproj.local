@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/03/31 19:20:38.000.062,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/07 19:48:25.000.231,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/06/16 19:10:23.000.526,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 19:25:11.000.567,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 20:27:25.000.308,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Aulas PROGRAMAÇÃO 2\AULA02\Exercicio01\ExEmAula.dfm</Transaction>
+    <Transaction>2016/08/10 20:27:25.000.308,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Aulas PROGRAMAÇÃO 2\AULA02\Exercicio01\ExEmAula.pas</Transaction>
+    <Transaction>2016/08/10 20:27:27.000.477,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Aulas PROGRAMAÇÃO 2\AULA02\Exercicio01\Trabalho.dproj</Transaction>
+    <Transaction>2016/08/10 20:30:49.027,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJA02\ExAula02.dproj=C:\Aulas PROGRAMAÇÃO 2\AULA02\Exercicio01\Trabalho.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

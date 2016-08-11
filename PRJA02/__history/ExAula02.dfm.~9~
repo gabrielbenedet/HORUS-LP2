@@ -1,0 +1,151 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Exercicio Aula'
+  ClientHeight = 432
+  ClientWidth = 710
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 710
+    Height = 432
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 160
+    ExplicitTop = 88
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object GroupBox1: TGroupBox
+      Left = 1
+      Top = 1
+      Width = 708
+      Height = 72
+      Align = alTop
+      Caption = 'Filtro'
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 16
+        Top = 24
+        Width = 66
+        Height = 13
+        Caption = 'Valor do Filtro'
+      end
+      object DBEValorFiltro: TDBEdit
+        Left = 88
+        Top = 21
+        Width = 377
+        Height = 21
+        TabOrder = 0
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 1
+      Top = 73
+      Width = 708
+      Height = 358
+      Align = alClient
+      Caption = 'Controles de Navega'#231#227'o e Edi'#231#227'o'
+      TabOrder = 1
+      ExplicitLeft = 96
+      ExplicitTop = 224
+      ExplicitWidth = 185
+      ExplicitHeight = 105
+      object DBNavigator1: TDBNavigator
+        Left = 2
+        Top = 15
+        Width = 704
+        Height = 34
+        DataSource = DataSource
+        Align = alTop
+        TabOrder = 0
+        ExplicitLeft = 336
+        ExplicitTop = 64
+        ExplicitWidth = 310
+      end
+      object DBGrid1: TDBGrid
+        Left = 2
+        Top = 49
+        Width = 704
+        Height = 208
+        Align = alTop
+        DataSource = DataSource
+        TabOrder = 1
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Tahoma'
+        TitleFont.Style = []
+        Columns = <
+          item
+            Expanded = False
+            FieldName = 'Id'
+            Visible = True
+          end
+          item
+            Expanded = False
+            FieldName = 'Nome'
+            Visible = True
+          end
+          item
+            Expanded = False
+            FieldName = 'Valor'
+            Visible = True
+          end
+          item
+            Expanded = False
+            FieldName = 'Quantidade'
+            Visible = True
+          end
+          item
+            Expanded = False
+            FieldName = 'Total'
+            Visible = True
+          end>
+      end
+    end
+  end
+  object ClientDataSet: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    OnCalcFields = ClientDataSetCalcFields
+    Left = 584
+    Top = 192
+    object ClientDataSetId: TIntegerField
+      FieldName = 'Id'
+    end
+    object ClientDataSetNome: TStringField
+      FieldName = 'Nome'
+      Size = 50
+    end
+    object ClientDataSetValor: TCurrencyField
+      FieldName = 'Valor'
+    end
+    object ClientDataSetQuantidade: TFloatField
+      FieldName = 'Quantidade'
+    end
+    object ClientDataSetTotal: TCurrencyField
+      FieldKind = fkCalculated
+      FieldName = 'Total'
+      Calculated = True
+    end
+    object ClientDataSetProdutosTotal: TAggregateField
+      FieldName = 'ProdutosTotal'
+      DisplayName = ''
+      Expression = 'SUM(Quantidade * Valor)'
+    end
+  end
+  object DataSource: TDataSource
+    DataSet = ClientDataSet
+    Left = 512
+    Top = 192
+  end
+end

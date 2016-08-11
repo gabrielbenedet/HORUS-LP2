@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Exercicio Aula'
+  ClientHeight = 432
+  ClientWidth = 710
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 88
+    Width = 705
+    Height = 233
+    DataSource = DataSource
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Id'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Nome'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Valor'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Quantidade'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Total'
+        Visible = True
+      end>
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 384
+    Top = 40
+    Width = 310
+    Height = 34
+    DataSource = DataSource
+    TabOrder = 1
+  end
+  object ClientDataSet: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    OnCalcFields = ClientDataSetCalcFields
+    Left = 584
+    Top = 192
+    object ClientDataSetId: TIntegerField
+      FieldName = 'Id'
+    end
+    object ClientDataSetNome: TStringField
+      FieldName = 'Nome'
+      Size = 50
+    end
+    object ClientDataSetValor: TCurrencyField
+      FieldName = 'Valor'
+    end
+    object ClientDataSetQuantidade: TFloatField
+      FieldName = 'Quantidade'
+    end
+    object ClientDataSetTotal: TCurrencyField
+      FieldKind = fkCalculated
+      FieldName = 'Total'
+      Calculated = True
+    end
+    object ClientDataSetProdutosTotal: TAggregateField
+      FieldName = 'ProdutosTotal'
+      DisplayName = ''
+      Expression = 'SUM(Quantidade * Valor)'
+    end
+  end
+  object DataSource: TDataSource
+    DataSet = ClientDataSet
+    Left = 512
+    Top = 192
+  end
+end
