@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/03/31 19:20:38.000.062,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/07 19:48:25.000.231,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/06/16 19:10:23.000.526,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/11 12:06:31.000.959,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/11 12:08:20.000.768,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\T1SINGLETIER\ControleDeEstoque.dfm=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/08/11 12:08:20.000.768,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\T1SINGLETIER\ControleDeEstoque.pas=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/11 12:08:24.000.697,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\T1SINGLETIER\TrabalhoPratico.dproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
