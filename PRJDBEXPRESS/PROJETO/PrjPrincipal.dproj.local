@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/03/31 19:20:38.000.062,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/07 19:48:25.000.231,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/06/16 19:10:23.000.526,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:16:32.000.444,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:17:12.000.749,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unt.FrmPrincipal.dfm=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/08/24 21:17:12.000.749,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unt.FrmPrincipal.pas=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:17:27.000.763,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\PrjPrincipal.dproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/08/24 21:40:16.000.357,=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Dm.Cadastro.Localizacao.pas</Transaction>
+    <Transaction>2016/08/24 21:40:18.000.553,=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Dm.DataBase.pas</Transaction>
+    <Transaction>2016/08/24 22:06:32.000.130,=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 22:06:48.000.628,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Frm.Pais.pas=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 22:06:48.000.628,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Frm.Pais.dfm=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.dfm</Transaction>
+    <Transaction>2016/08/24 23:37:18.000.421,=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 23:37:38.000.292,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Frm.Estado.dfm=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.dfm</Transaction>
+    <Transaction>2016/08/24 23:37:38.000.292,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Frm.Estado.pas=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.pas</Transaction>
+    <Transaction>2016/08/25 19:36:47.000.566,=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.pas</Transaction>
+    <Transaction>2016/08/25 19:37:24.000.415,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.dfm=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Frm.Cidade.dfm</Transaction>
+    <Transaction>2016/08/25 19:37:24.000.415,C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Unit1.pas=C:\Aulas PROGRAMAÇÃO 2\HORUS-LP2\PRJDBEXPRESS\PROJETO\Frm.Cidade.pas</Transaction>
+  </Transactions>
+</BorlandProject>

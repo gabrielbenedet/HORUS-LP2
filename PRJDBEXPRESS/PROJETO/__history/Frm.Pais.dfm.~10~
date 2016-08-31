@@ -1,0 +1,139 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'FrmPais'
+  ClientHeight = 369
+  ClientWidth = 567
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Top = 0
+    Width = 567
+    Height = 25
+    DataSource = DataSourcePais
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 184
+    ExplicitTop = 136
+    ExplicitWidth = 240
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 147
+    Width = 567
+    Height = 216
+    Align = alTop
+    DataSource = DataSourcePais
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'PAI_CODIGO'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'PAI_NOME'
+        Width = 334
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'PAI_SIGLA'
+        Width = 55
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'PAI_BACEN'
+        Width = 93
+        Visible = True
+      end>
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 25
+    Width = 567
+    Height = 122
+    Align = alTop
+    TabOrder = 2
+    ExplicitLeft = -24
+    ExplicitTop = 31
+    object Label1: TLabel
+      Left = 32
+      Top = 24
+      Width = 39
+      Height = 13
+      Caption = 'C'#243'odigo'
+    end
+    object Label2: TLabel
+      Left = 32
+      Top = 70
+      Width = 22
+      Height = 13
+      Caption = 'Sigla'
+    end
+    object Label3: TLabel
+      Left = 208
+      Top = 24
+      Width = 27
+      Height = 13
+      Caption = 'Nome'
+    end
+    object Label4: TLabel
+      Left = 208
+      Top = 70
+      Width = 33
+      Height = 13
+      Caption = 'BACEN'
+    end
+    object DBEdit1: TDBEdit
+      Left = 32
+      Top = 43
+      Width = 121
+      Height = 21
+      TabOrder = 0
+    end
+    object DBEdit2: TDBEdit
+      Left = 32
+      Top = 89
+      Width = 121
+      Height = 21
+      TabOrder = 1
+    end
+    object DBEdit3: TDBEdit
+      Left = 208
+      Top = 43
+      Width = 353
+      Height = 21
+      TabOrder = 2
+    end
+    object DBEdit4: TDBEdit
+      Left = 208
+      Top = 89
+      Width = 145
+      Height = 21
+      TabOrder = 3
+    end
+  end
+  object DataSourcePais: TDataSource
+    DataSet = DmCadastroLocalizacao.CdsPais
+    Left = 472
+    Top = 96
+  end
+end
