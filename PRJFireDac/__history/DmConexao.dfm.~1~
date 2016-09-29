@@ -1,0 +1,27 @@
+object FrmConexao: TFrmConexao
+  Left = 0
+  Top = 0
+  Caption = 'Conexao'
+  ClientHeight = 202
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Database=C:\Aulas PROGRAMA'#199#195'O 2\BANCO FIREDAC.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 40
+    Top = 32
+  end
+end

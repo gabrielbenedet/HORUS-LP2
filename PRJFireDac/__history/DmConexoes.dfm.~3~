@@ -1,0 +1,55 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 311
+  Width = 526
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'Database=C:\Aulas PROGRAMA'#199#195'O 2\BANCO FIREDAC.FDB'
+      'User_Name=SYSDBA'
+      'DriverID=fB'
+      'Password=masterkey')
+    Connected = True
+    LoginPrompt = False
+    Left = 48
+    Top = 24
+  end
+  object QryProprietario: TFDQuery
+    Connection = FDConnection
+    SQL.Strings = (
+      'SELECT PROPRIETARIO.PRP_CODIGO, PROPRIETARIO.PRP_NOME,'
+      'PROPRIETARIO.PRP_ENDERECO FROM PROPRIETARIO')
+    Left = 48
+    Top = 80
+    object QryProprietarioPRP_CODIGO: TIntegerField
+      DisplayLabel = 'CODIGO'
+      FieldName = 'PRP_CODIGO'
+      Origin = 'PRP_CODIGO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QryProprietarioPRP_NOME: TStringField
+      DisplayLabel = 'NOME'
+      FieldName = 'PRP_NOME'
+      Origin = 'PRP_NOME'
+      ProviderFlags = [pfInUpdate]
+      Required = True
+      Size = 100
+    end
+    object QryProprietarioPRP_ENDERECO: TStringField
+      DisplayLabel = 'ENDERECO'
+      FieldName = 'PRP_ENDERECO'
+      Origin = 'PRP_ENDERECO'
+      ProviderFlags = [pfInUpdate]
+      Size = 100
+    end
+  end
+  object FDGUIxWaitCursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 48
+    Top = 136
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 48
+    Top = 200
+  end
+end

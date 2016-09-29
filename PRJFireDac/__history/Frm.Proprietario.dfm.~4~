@@ -1,0 +1,128 @@
+object FrmProprietario: TFrmProprietario
+  Left = 0
+  Top = 0
+  Caption = 'Proprietario'
+  ClientHeight = 451
+  ClientWidth = 746
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Top = 0
+    Width = 746
+    Height = 25
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 128
+    ExplicitTop = 56
+    ExplicitWidth = 240
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 25
+    Width = 746
+    Height = 426
+    Align = alClient
+    TabOrder = 1
+    ExplicitTop = 17
+    object Label1: TLabel
+      Left = 19
+      Top = 21
+      Width = 33
+      Height = 13
+      Caption = 'Codigo'
+    end
+    object Label2: TLabel
+      Left = 19
+      Top = 69
+      Width = 27
+      Height = 13
+      Caption = 'Nome'
+    end
+    object Label3: TLabel
+      Left = 19
+      Top = 117
+      Width = 45
+      Height = 13
+      Caption = 'Endere'#231'o'
+    end
+    object DBEdtCodigo: TDBEdit
+      Left = 19
+      Top = 40
+      Width = 158
+      Height = 21
+      DataField = 'PRP_CODIGO'
+      DataSource = DsProprietario
+      TabOrder = 0
+    end
+    object DBEdtNome: TDBEdit
+      Left = 19
+      Top = 88
+      Width = 558
+      Height = 21
+      DataField = 'PRP_NOME'
+      DataSource = DsProprietario
+      TabOrder = 1
+    end
+    object DBEdtEndereco: TDBEdit
+      Left = 19
+      Top = 136
+      Width = 558
+      Height = 21
+      DataField = 'PRP_ENDERECO'
+      DataSource = DsProprietario
+      TabOrder = 2
+    end
+    object GroupBox2: TGroupBox
+      Left = 3
+      Top = 164
+      Width = 743
+      Height = 259
+      TabOrder = 3
+      object DBGrid1: TDBGrid
+        Left = 2
+        Top = 15
+        Width = 739
+        Height = 202
+        Align = alTop
+        DataSource = DsProprietario
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'Tahoma'
+        TitleFont.Style = []
+        Columns = <
+          item
+            Expanded = False
+            FieldName = 'PRP_CODIGO'
+            Width = 69
+            Visible = True
+          end
+          item
+            Expanded = False
+            FieldName = 'PRP_NOME'
+            Width = 193
+            Visible = True
+          end
+          item
+            Expanded = False
+            FieldName = 'PRP_ENDERECO'
+            Visible = True
+          end>
+      end
+    end
+  end
+  object DsProprietario: TDataSource
+    DataSet = DataModule2.QryProprietario
+    Left = 672
+    Top = 56
+  end
+end

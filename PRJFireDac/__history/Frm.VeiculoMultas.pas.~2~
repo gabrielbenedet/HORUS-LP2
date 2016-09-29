@@ -1,0 +1,44 @@
+unit Frm.VeiculoMultas;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Grids, Vcl.DBGrids, Vcl.StdCtrls,
+  Vcl.Mask, Vcl.DBCtrls, Data.DB, Vcl.ExtCtrls;
+
+type
+  TFrmVeiculoMultas = class(TForm)
+    DBNavigator1: TDBNavigator;
+    DsVeiculo: TDataSource;
+    DsMultas: TDataSource;
+    DsProprietario: TDataSource;
+    Label1: TLabel;
+    DBLookupComboBox1: TDBLookupComboBox;
+    DBEdit1: TDBEdit;
+    DBEdit2: TDBEdit;
+    DBEdit3: TDBEdit;
+    DBEdit4: TDBEdit;
+    DBEdit5: TDBEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    DBGrid1: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmVeiculoMultas: TFrmVeiculoMultas;
+
+implementation
+
+{$R *.dfm}
+
+uses DmConexoes;
+
+end.
