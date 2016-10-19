@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/03/31 19:20:38.000.062,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/07 19:48:25.000.231,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/06/16 19:10:23.000.526,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/05 19:25:16.582,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/05 19:25:22.876,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/05 19:35:36.835,=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/10/05 19:43:28.275,C:\PrjFutebolFireDAC\Aplicação\FrmPrincipal.pas=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/05 19:43:28.275,C:\PrjFutebolFireDAC\Aplicação\FrmPrincipal.dfm=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/10/05 19:44:04.601,C:\PrjFutebolFireDAC\Aplicação\Conexao.dfm=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2016/10/05 19:44:04.601,C:\PrjFutebolFireDAC\Aplicação\Conexao.pas=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/05 19:44:19.619,C:\PrjFutebolFireDAC\Aplicação\Componentes.dfm=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2016/10/05 19:44:19.619,C:\PrjFutebolFireDAC\Aplicação\Componentes.pas=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2016/10/05 20:18:49.806,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\PrjFutebol.dproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/10/05 20:33:03.006,=C:\PrjFutebolFireDAC\Aplicação\Frm.Cuble.Jogadores.pas</Transaction>
+    <Transaction>2016/10/05 20:33:03.039,=C:\PrjFutebolFireDAC\Aplicação\Frm.Pais.pas</Transaction>
+    <Transaction>2016/10/05 20:33:03.071,=C:\PrjFutebolFireDAC\Aplicação\Frm.Tatica.pas</Transaction>
+    <Transaction>2016/10/05 20:33:03.110,=C:\PrjFutebolFireDAC\Aplicação\Frm.Tecnicos.pas</Transaction>
+    <Transaction>2016/10/05 20:33:38.878,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\PrjFutebolFireDAC.dproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\PrjFutebol.dproj</Transaction>
+    <Transaction>2016/10/05 20:34:24.131,C:\PrjFutebolFireDAC\Aplicação\FrmPrincipal.pas=</Transaction>
+    <Transaction>2016/10/05 20:34:34.021,=C:\PrjFutebolFireDAC\Aplicação\PrjPrincipal.pas</Transaction>
+    <Transaction>2016/10/05 20:34:45.748,C:\PrjFutebolFireDAC\Aplicação\Frm.Principal.pas=C:\PrjFutebolFireDAC\Aplicação\PrjPrincipal.pas</Transaction>
+    <Transaction>2016/10/05 20:34:45.748,C:\PrjFutebolFireDAC\Aplicação\Frm.Principal.dfm=C:\PrjFutebolFireDAC\Aplicação\PrjPrincipal.dfm</Transaction>
+    <Transaction>2016/10/05 20:35:02.976,C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\PrjFutebol.dproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\PrjFutebolFireDAC.dproj</Transaction>
+    <Transaction>2016/10/05 20:35:06.354,C:\PrjFutebolFireDAC\Aplicação\PrjFutebol.dproj=C:\Users\Gabriel\Documents\Embarcadero\Studio\Projects\PrjFutebol.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

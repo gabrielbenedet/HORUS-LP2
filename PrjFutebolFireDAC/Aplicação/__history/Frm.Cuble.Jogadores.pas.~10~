@@ -1,0 +1,86 @@
+unit Frm.Cuble.Jogadores;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Vcl.DBCtrls, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls;
+
+type
+  TFrmClubeJogadores = class(TForm)
+    DBNavigator1: TDBNavigator;
+    DsTatica: TDataSource;
+    DsPais: TDataSource;
+    DsClube: TDataSource;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    DBEdit1: TDBEdit;
+    DBEdit2: TDBEdit;
+    DBEdit3: TDBEdit;
+    DBEdit4: TDBEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    DBLookupComboBox1: TDBLookupComboBox;
+    DBLookupComboBox2: TDBLookupComboBox;
+    DBGrid1: TDBGrid;
+    DBNavigator2: TDBNavigator;
+    DBLookupComboBox3: TDBLookupComboBox;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    DsTecnico: TDataSource;
+    DBEdit5: TDBEdit;
+    DBEdit6: TDBEdit;
+    DBEdit7: TDBEdit;
+    DBEdit8: TDBEdit;
+    DBEdit9: TDBEdit;
+    DBEdit10: TDBEdit;
+    DBEdit11: TDBEdit;
+    DBEdit12: TDBEdit;
+    Lbl: TLabel;
+    DBLookupComboBox4: TDBLookupComboBox;
+    DBGrid2: TDBGrid;
+    DsJogador: TDataSource;
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmClubeJogadores: TFrmClubeJogadores;
+
+implementation
+
+{$R *.dfm}
+
+uses Componentes, Frm.Pais, Frm.Principal, Frm.Tatica, Frm.Tecnicos;
+
+procedure TFrmClubeJogadores.FormCreate(Sender: TObject);
+begin
+Componentes.DmComponentes.QryClube.Open;
+Componentes.DmComponentes.QryTatica.Open;
+Componentes.DmComponentes.QryTecnicos.Open;
+Componentes.DmComponentes.QryPais.Open;
+end;
+
+procedure TFrmClubeJogadores.FormDestroy(Sender: TObject);
+begin
+Componentes.DmComponentes.QryClube.Close;
+Componentes.DmComponentes.QryTatica.Close;
+Componentes.DmComponentes.QryTecnicos.Close;
+Componentes.DmComponentes.QryPais.Close;
+end;
+
+end.
